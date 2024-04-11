@@ -36,6 +36,7 @@ function Auth() {
   const handleAuth = async (e) => {
     e.preventDefault();
     if (!signUp) {
+      // eslint-disable-next-line no-unused-vars
       const { user } = await signInWithEmailAndPassword(auth, email, password);
     } else {
       if (password !== confirmPassword) {
