@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #e8e8e8;
+    color: #2a2a2a;
+    font-family: "Teko", sans-serif;
+
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-size: 1.4rem;
+  }
+}
+
+/* backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(30px); */
