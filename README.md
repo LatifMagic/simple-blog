@@ -1,8 +1,26 @@
-# React + Vite
+# Blog App with React and Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Check out the blog [here](https://simple-blog-orpin.vercel.app)!**
 
-Currently, two official plugins are available:
+## Description
+This is a simple blog app created using React and Firebase . Users can sign up, log in, create, update, and delete articles. They can also view articles created by other users and explore articles by tags.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+- User Authentication: Sign up and log in functionality.
+- Create Articles: Users can create new articles with titles, content, and tags.
+- Update and Delete Articles: Users can edit and delete their own articles.
+- View Articles: Users can view articles created by other users.
+- Tags: For now users can only see Tags in future Explore articles by tags to find related content feature will be added.
+
+
+## Installation
+1. Clone the repository to your local machine.
+2. Install dependencies by running `npm install`.
+3. Set up Firebase project and update the Firebase configuration in the project.
+4. Run the app locally using `npm run dev`.
+
+## Usage
+1. Sign up or log in to access the blog app.
+2. Create new articles, update existing ones, or delete articles.
+3. View articles created by other users.
